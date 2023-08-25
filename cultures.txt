@@ -1,0 +1,36 @@
+﻿2200-2299,Nature,Natur
+2300-2699,House and Household
+2300-2399,Domestic Architecture
+2400-2499,Familiy and Kinship
+2500-2599,Meals for Familiy and Guests
+2600-2699,Illness and Healing
+2700-3099,The Means of Existence
+2700-2799,Farming and Animal Husbandry
+2800-2899,Water Sources,Vandkilder
+2900-2999,Arts and Crafts
+3000-3099,"Travel, Transport, and Trade"
+3100-3399,(Patrimonial) Kingdom
+3100-3199,The Royal City
+3200-3299,Urban Water Systems
+3300-3399,"Warfare, Armies, and Weapons"
+3100-3699,Culture and the Expressive Life
+3400-3499,Dress and Adornments
+3500-3599,"Music, Song, and Dance"
+3600-3699,"Literacy and Schools"
+3700-4900,Religious Institutions
+3700-3799,Sacred Sites
+3800-3899,Ritual objects
+3900-3999,Religious Practices
+4000-4099,"Death, Burial, and Afterlife"
+
+2202,Landscapes
+2504,Daily Meals
+2703,Agricultural Tools
+2906,"Tools","Værktøj"
+3650,Samaritans
+3702,Temples and Shrines
+3902,Sacrifices and Offerings
+4001,Tomb Types and Burial Chambers
+4100,Priests
+4101,Priestly Clothing
+

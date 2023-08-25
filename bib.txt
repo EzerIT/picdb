@@ -1,0 +1,81 @@
+#Format:
+# Danish abb., Internal abb., English abb., Full name
+# Names marked with * are not official, but rather translations of the Danish names
+
+1 Mos,Gn,Gn,Genesis
+2 Mos,Ex,Ex,Exodus
+3 Mos,Lv,Lv,Leviticus
+4 Mos,Nm,Nm,Numbers
+5 Mos,Dt,Dt,Deuteronomy
+Jos,Jo,Jo,Joshua
+Dom,Jgs,Jgs,Judges
+Ruth,Ru,Ru,Ruth
+1 Sam,ISm,1 Sm,1 Samuel
+2 Sam,IISm,2 Sm,2 Samuel
+1 Kong,IKgs,1 Kgs,1 Kings
+2 Kong,IIKgs,2 Kgs,2 Kings
+1 Krøn,IChr,1 Chr,1 Chronicles
+2 Krøn,IIChr,2 Chr,2 Chronicles
+Ezra,Ezr,Ezr,Ezra
+Neh,Neh,Neh,Nehemiah
+Est,Est,Est,Esther
+Job,Jb,Jb,Job
+Sl,Ps,Ps,Psalms
+Ordsp,Prv,Prv,Proverbs
+Præd,Eccl,Eccl,Ecclesiastes
+Højs,Sg,Sg,Song of Solomon
+Es,Is,Is,Isaiah
+Jer,Jer,Jer,Jeremiah
+Klages,Lam,Lam,Lamentations
+Ez,Ez,Ez,Ezekiel
+Dan,Dn,Dn,Daniel
+Hos,Hos,Hos,Hosea
+Joel,Jl,Jl,Joel
+Am,Am,Am,Amos
+Obad,Ob,Ob,Obadiah
+Jon,Jon,Jon,Jonah
+Mika,Mi,Mi,Micah
+Nah,Na,Na,Nahum
+Hab,Hb,Hb,Habakkuk
+Sef,Zep,Zep,Zephaniah
+Hagg,Hg,Hg,Haggai
+Zak,Zec,Zec,Zechariah
+Mal,Mal,Mal,Malachi
+Tob,Tb,Tb,Tobit
+Judit,Jdt,Jdt,Judith
+TilfEst,AddEst,AddEst,Additions to Esther*
+1 Makk,IMc,1 Mc,1 Maccabees
+2 Makk,IIMc,2 Mc,2 Maccabees
+Visd,Ws,Ws,Wisdom
+Sir,Ecclus,Ecclus,Ecclesiasticus
+ManB,PrOfMan,Pr of Man,Prayer of Manasses
+Bar,Bar,Bar,Baruch
+JerBr,LetJer,LetJer,Jeremiah's letter*
+TilfDan,AddDan,AddDan,Additions to Daniel*
+Matt,Mt,Mt,Matthew
+Mark,Mk,Mk,Mark
+Luk,Lk,Lk,Luke
+Joh,Jn,Jn,John
+ApG,Acts,Acts,Acts of the Apostles
+Rom,Rom,Rom,Romans
+1 Kor,ICor,1 Cor,1 Corinthians
+2 Kor,IICor,2 Cor,2 Corinthians
+Gal,Gal,Gal,Galatians
+Ef,Eph,Eph,Ephesians
+Fil,Phil,Phil,Philippians
+Kol,Col,Col,Colossians
+1 Thess,IThes,1 Thes,1 Thessalonians
+2 Thess,IIThes,2 Thes,2 Thessalonians
+1 Tim,ITm,1 Tm,1 Timothy
+2 Tim,IITm,2 Tm,2 Timothy
+Tit,Ti,Ti,Titus
+Filem,Phlm,Phlm,Philemon
+Hebr,Heb,Heb, Hebrews
+Jak,Jas,Jas,James
+1 Pet,IPt,1 Pt,1 Peter
+2 Pet,IIPt,2 Pt,2 Peter
+1 Joh,IJn,1 Jn,1 John
+2 Joh,IIJn,2 Jn,2 John
+3 Joh,IIIJn,3 Jn,3 John
+Jud,Jude,Jude,Jude
+Åb,Rv,Rv,Revelation

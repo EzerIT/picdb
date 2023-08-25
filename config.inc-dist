@@ -1,0 +1,44 @@
+<?php
+// Copyright (c) Claus Tondering.  E-mail: claus@ezer.dk.
+//
+// This code is distributed under an MIT License:
+//
+// Permission is hereby granted, free of charge, to any person obtaining a copy of this software and
+// associated documentation files (the "Software"), to deal in the Software without restriction,
+// including without limitation the rights to use, copy, modify, merge, publish, distribute,
+// sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is
+// furnished to do so, subject to the following conditions:
+//
+// The above copyright notice and this permission notice shall be included in all copies or
+// substantial portions of the Software.
+//
+// THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING
+// BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+// NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM,
+// DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+// OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+
+// This file contains various configuration information which relates the
+// file to the particular server.
+
+define("DB_HOST", "HOSTNAME");  // Database host
+define("DB_USER", "USERNAME");	// Database user
+define("DB_PASS", "PASSWORD");	// Database password
+define("DB_NAME", "DATABASE");	// Database name
+
+$dirname_big = "photos/big";
+$dirname_600 = "photos/600";
+$dirname_160 = "photos/160";
+
+$unpub_dirname_big = "unpub/big";
+$unpub_dirname_600 = "unpub/600";
+$unpub_dirname_160 = "unpub/160";
+
+$db_prefix = "pic_";
+
+$pw_salt = 'SALT';
+
+$mail_sender = 'noreply@example.com';
+
+?>

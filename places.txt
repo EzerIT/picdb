@@ -1,0 +1,46 @@
+﻿001-599,Israel
+600-699,Jordan
+700-799,Lebanon
+800-899,The Arabian Peninsula
+900-1099,Syria
+1100-1199,Mesopotamia
+1200-1299,Persia
+1600-1899,Egypt
+1900-2199,Greece and other sites in the Meditterranean Region
+
+9,Ai
+20,Arbel
+47,Bethel
+54,Beth-Shean
+59,Bethsaida (et-Tell)
+68,Capernaum
+71,Chorazin
+84,Dothan
+85,Mount Ebal
+96,‘En Gev
+124,Mount Gerizim
+133,Ginnosar
+134,Giv‘atayim
+140,Tel Hadar
+150,Hammath-Tiberias
+183,Jericho
+185,Tel Jezreel
+205,Kinneret (lake)
+212,Kursi
+284,Schechem
+288,Shiloh
+310,Tiberias
+386,Samaria (Sebaste)
+387,Sartaba-Alexandrium
+397,Wadi Qelt
+398,Jordan (Valley)
+399,Road from Jericho to Ramallah
+400,Khirbet al-Makatar
+401,Road from Ramalla to Nablus
+402,Harod (spring)
+404,Magdala
+405,Tel Kinnerot
+406,Tabgha
+407,Eremos Cave
+408,Bay of Parables
+409,Jordan (River)

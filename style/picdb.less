@@ -1,0 +1,390 @@
+// Emacs: -*- mode: css -*-
+
+// Copyright (c) Claus Tondering.  E-mail: claus@ezer.dk.
+//
+// This code is distributed under an MIT License:
+//
+// Permission is hereby granted, free of charge, to any person obtaining a copy of this software and
+// associated documentation files (the "Software"), to deal in the Software without restriction,
+// including without limitation the rights to use, copy, modify, merge, publish, distribute,
+// sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is
+// furnished to do so, subject to the following conditions:
+//
+// The above copyright notice and this permission notice shall be included in all copies or
+// substantial portions of the Software.
+//
+// THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING
+// BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+// NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM,
+// DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+// OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+
+// Placing color names in variables, causes LESS to change them into their corresponding hex values.
+// Thus we avoid browse problems.
+
+@pink: pink;
+@chocolate: chocolate;
+@lightblue: #a0a0ff;
+
+body {
+    background-color: white;
+    font-family: Segoe UI, Arial, sans-serif;
+    font-size: 10pt;
+}
+
+#top {
+    width: 1252px;
+    height: 90px;
+    display: table;
+
+    #intopl {
+        display: table-cell;
+        vertical-align: middle;
+        width: 80px;
+        background: white;
+    }
+     
+    #intop {
+        display: table-cell;
+        background: @lightblue;
+        vertical-align: middle;
+        font-size: 40px;
+        padding-left: 30px;
+     
+        a {
+            text-decoration: none;
+            color: white;
+        }
+    }
+}
+
+#center {
+    position: relative;
+    top: 20px;
+}
+
+
+#left {
+    width: 240px;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    select {
+        margin-bottom: 10px;
+        font-size: 8pt;
+        width: 230px;
+    }
+
+    label {
+        display: block;
+    }
+}
+
+#search {
+    background: #ffbb22;
+    padding: 5px;
+}
+
+
+#logincenter {
+    width: 700px;
+
+     h1 {
+        text-align: center;
+    }
+
+    #loginbox {
+        border: solid black 1px;
+        background-color: #fee78d;
+        width: 270px;
+        padding: 5px;
+        position: relative;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+.center {
+    text-align: center !important;
+}
+
+.left {
+    text-align: left !important;
+}
+
+.invisible {
+    display: none !important;
+}
+
+
+#right {
+    position: absolute;
+    width: 952px;
+    top: 0;
+    left: 300px;
+}
+
+div#bibsearch {
+    margin-left: 20px;
+
+    select {
+        width: 210px;
+    }
+     
+    label {
+        display: inline;
+    }
+     
+    input {
+        font-size: 8pt;
+        width: 30px;
+    }
+}
+
+div#fulltextsearch {
+    input {
+        font-size: 8pt;
+        width: 220px;
+    }
+}
+
+
+table.form {
+    td {
+        background-color: #ffcc00;
+        vertical-align: center;
+        padding: 5px;
+    }
+
+    input {
+        font-size: 10pt;
+        width: 200px;
+        margin-top: auto;
+        margin-bottom: auto;
+
+        &.narrow {
+            width: auto;
+        }
+    }
+}
+
+h1 {
+    font-size: 16pt;
+
+    &.float {
+        float: left;
+    }
+}
+
+h2 {
+    font-size: 12pt;
+}
+
+
+
+div#pageselector {
+    float: right;
+}
+
+img {
+    border: none;
+}
+
+div#result {
+    display: none;
+    border: solid red;
+    background: @pink;
+}
+
+
+div.link {
+    text-align: center;
+    margin: auto;
+    padding: 5px 0;
+    width: 160px;
+    font-size: 9pt;
+}
+
+div.desc {
+    text-align: center;
+    margin: auto;
+    width: 160px;
+    font-size: 8pt;
+    height: 4.5ex;
+}
+
+div.picdesc {
+    width: 600px;
+}
+
+div.thumbnail {
+    text-align: center;
+    width: 160px;
+    height: 160px;
+    vertical-align: middle;
+    margin: auto;
+    display: table-cell; /* To make vertical-align work */
+}
+
+td.cell {
+    padding: 5px;
+}
+
+
+.shadow {
+    box-shadow: 3px 3px 4px black;
+}
+
+.shadow1 {
+    padding: 7px 7px 0 7px;
+    box-shadow: 3px 3px 4px 3px @pink;
+}
+
+#lightbox-image-details-caption {
+    font-weight: normal;
+}
+
+div.clearfloats { /* Thanks to http://ryanfait.com/articles/breaking-floats-without-hacks */
+    width: 100%;
+    height: 1px;
+    margin: 0 0 -1px;
+    clear: both;
+}
+
+p.error {
+    background-color: @pink;
+}
+
+p.forlabel {
+    margin: 0;
+}
+
+p.narrow {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+div.spanner {
+    height: 50px;
+}
+
+div.narrow {
+    width: 600px;
+}
+
+option.selectgroup {
+    font-weight: bold;
+    font-style: italic;
+}
+
+option.noselectgroup {
+    margin-left: 10px;
+}
+
+.coloredbg {
+    display: inline-block;
+    background: #ffffc0;
+    padding: 0 10px;
+    margin-top: 15px;
+}
+
+
+/* Administrative menu */
+#adminmenu {
+    @admin-background: khaki; //#f0e68c;
+
+    background: @admin-background;
+    padding: 0;
+
+    p {
+        padding: 0 5px 0 5px;
+    }
+     
+    p.logininfo {
+        font-style: italic;
+    }
+     
+    h1 {
+        font-size: 12pt;
+        padding: 5px 5px 0 5px;
+    }
+     
+    hr {
+        color: white;
+    }
+     
+    span.linklist {
+        padding: 5px;
+        margin: 0;
+        display: block;
+    }
+     
+    a.menuitem {
+        text-decoration: none;
+    }
+     
+    span.llthis {
+        padding: 5px;
+        margin: 0;
+        background-color: @chocolate;
+        color: white;
+        display: block;
+    }
+     
+    span.llactive {
+        background-color: lighten(@admin-background, 20%);
+        color: black;
+    }
+     
+    input {
+        margin: 5px;
+    }
+}
+
+table.type1,table.type2 {
+    border-collapse: separate;
+    th {
+        padding: 0 6px;
+        text-align: center;
+        font-weight: normal;
+    }
+     
+    td {
+        padding: 0 6px;
+        text-align: center;
+    }
+}
+
+table.type1 {
+    th {
+        background-color: #000077;
+        color: white;
+    }
+     
+    td {
+        background-color: #c0c0ff;
+    }
+}
+
+table.type2 {
+    th {
+        background-color: #007700;
+        color: white;
+    }
+     
+    td {
+        background-color: #c0ffc0;
+    }
+}
+
+
+input {
+    margin-top: 10px;
+}
+
+#lightbox-image-details-caption p {
+   margin-top: 0;
+   margin-bottom: 0;
+}
