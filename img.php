@@ -36,7 +36,7 @@ try {
     while ($row=mysqli_fetch_object($res))
         $bibrefs[$row->id] = $row->english_name;
 
-    if (!isset($_GET['cur'])) {
+    if (!isset($_GET['cur']) || !isset($_SESSION['allids'])) { // Assume important $_SESSION information is not set
         // Look for photos
 
         $allcats = find_allcats(true);
@@ -120,7 +120,10 @@ try {
         while ($row = mysqli_fetch_object($res))
             $allids[] = $row->id;
 
-        $cur = 0;
+	if (isset($_GET['cur']) && is_numeric($_GET['cur']) && $_GET['cur']!=-1)
+	    $cur = $_GET['cur'];
+	else
+	    $cur = 0;
 
         $_SESSION['allids'] = $allids;
         $_SESSION['num_pics'] = $num_pics;

@@ -134,6 +134,8 @@ function find_pics($allids, $allcats, $num_pics, $cur, $max_per_page)
         while ($row = mysqli_fetch_object($res)) {
             $allpics[] = $row;
 
+	    if (is_null($row->description))
+		    $row->description="";
             $row->shortdesc = strip_links(strip_tags($row->description));
             if (utf8_strlen($row->shortdesc)>40)
                 $row->shortdesc = substr($row->shortdesc,0,utf8_step($row->shortdesc,37)) . '...';

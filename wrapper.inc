@@ -187,7 +187,7 @@ function wrapme($title, $headerscript, $leftbox, $bodytext, $include_js=array(),
   <!--Top banner-->
   <div id="top">
     <div id="intopl">
-      <a href="http://www.eplot.eu" onclick="window.open(this.href,'_blank');return false;"><img src="images/logo.png" alt="logo"/></a>
+      <a href="https://resources.learner.bible" onclick="window.open(this.href,'_blank');return false;"><img src="images/logo.png" alt="logo"/></a>
     </div>
     <div id="intop" class="ui-corner-all">
       <a href="img.php">EuroPLOT Resources</a>
