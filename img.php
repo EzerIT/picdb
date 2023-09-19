@@ -212,8 +212,8 @@ chapter, and verse under &ldquo;Bible reference&rdquo; and press the Search butt
 search for specific words in the picture descriptions.</p>
 
 <p>On the page you will see a number of pictures with a short description under them. Click on a
-picture to view a larger version and see the full description. (At present the descriptions are,
-unfortunately, only available in Danish.)</p>
+picture to view a larger version and see the full description. (At present the descriptions are in
+Danish and/or English.)</p>
 
 <p>The system only displays 25 pictures on a page. If more pictures are available, you can move to
 other pages by using the page links in the top right corner.</p>
@@ -222,8 +222,7 @@ other pages by using the page links in the top right corner.</p>
 these links:</p>
 
 <ul>
-<li><b>Download &ndash; Large.</b> Downloads a full-size version of the picture.</li>
-<li><b>Download &ndash; Small.</b> Downloads a smaller version of the picture (600
+<li><b>Download.</b> Downloads a smal version of the picture (600
 pixels along the longest edge).</li>
 <li><b>Direct link.</b> This is a direct link to a small version of this picture and its description.
 </ul>
