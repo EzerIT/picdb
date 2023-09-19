@@ -18,9 +18,9 @@
 // DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
-require_once 'database.inc';
-require_once 'html.inc';
-require_once 'util.inc';
+require_once 'database.inc.php';
+require_once 'html.inc.php';
+require_once 'util.inc.php';
 
 class verseRange {
     public $low;

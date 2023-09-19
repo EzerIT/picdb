@@ -23,8 +23,8 @@
 // Data part
 //////////////////////////////////////////////////////////////////////
 
-require_once 'html.inc';
-require_once 'database.inc';
+require_once 'html.inc.php';
+require_once 'database.inc.php';
 
 
 // $only_used is true if we are only interested in categories that are actually used for an image.

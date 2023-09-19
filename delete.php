@@ -18,9 +18,9 @@
 // DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
-require_once 'wrapper.inc';
-require_once 'dataexception.inc';
-require_once 'delete.inc';
+require_once 'wrapper.inc.php';
+require_once 'dataexception.inc.php';
+require_once 'delete.inc.php';
 
 must_be_user();
 

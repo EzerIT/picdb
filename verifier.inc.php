@@ -19,8 +19,8 @@
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 
-require_once 'database.inc';
-require_once 'filenamereport.inc';
+require_once 'database.inc.php';
+require_once 'filenamereport.inc.php';
 
 
 class Verifier {

@@ -24,8 +24,8 @@
 error_reporting(E_ALL);
 ini_set("display_errors", 1);
 
-require_once 'adminmenu.inc';
-require_once 'dataexception.inc';
+require_once 'adminmenu.inc.php';
+require_once 'dataexception.inc.php';
 
 
 $phpscript = $_SERVER['PHP_SELF'];

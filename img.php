@@ -19,12 +19,12 @@
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 
-require_once 'wrapper.inc';
-require_once 'util.inc';
-require_once 'html.inc';
-require_once 'database.inc';
-require_once 'dataexception.inc';
-require_once 'img.inc';
+require_once 'wrapper.inc.php';
+require_once 'util.inc.php';
+require_once 'html.inc.php';
+require_once 'database.inc.php';
+require_once 'dataexception.inc.php';
+require_once 'img.inc.php';
 
 $max_per_line = 5;
 $max_per_page = $max_per_line * 5;

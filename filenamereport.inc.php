@@ -22,7 +22,7 @@
 // This file contains files to handle the photo naming scheme:
 // [PLACE#]_[PERIOD#]_[PICTURE#]_[RESOLUTION].[FILETYPE]
 
-require_once 'database.inc';
+require_once 'database.inc.php';
 
 // Find legal place numbers
 $places = array();

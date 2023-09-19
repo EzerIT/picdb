@@ -21,8 +21,8 @@
 // This file contains a class and function to display the amininistrator menu.
 
 
-require_once 'html.inc';
-require_once 'database.inc';
+require_once 'html.inc.php';
+require_once 'database.inc.php';
 
 // The Credentials class contains information about a user who has logged in.
 // When an object of this class is constructed, the user ID is taken from the $_SESSION information.

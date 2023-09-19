@@ -18,11 +18,11 @@
 // DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
-require_once 'wrapper.inc';
-require_once 'database.inc';
-require_once 'csvreader.inc';
-require_once 'dataexception.inc';
-require_once 'findref.inc';
+require_once 'wrapper.inc.php';
+require_once 'database.inc.php';
+require_once 'csvreader.inc.php';
+require_once 'dataexception.inc.php';
+require_once 'findref.inc.php';
 
 must_be_user();
 
