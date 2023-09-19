@@ -117,7 +117,7 @@ ob_start();
    
         <form method="post" action="editdesc.php" accept-charset="UTF-8"> 
           <p>     
-            <textarea name="content" cols="50" rows="15"><?= htmlspecialchars($picture->description) ?></textarea>
+            <textarea name="content" cols="50" rows="15"><?= htmlspecialchars($picture->description ?? "") ?></textarea>
             <input type="submit" name="submit" value="Save" />
             <input type="hidden" name="id" value="<?= $id ?>" />
             <input onclick="location='<?= $srcurl ?>'" type="button" value="Cancel" />

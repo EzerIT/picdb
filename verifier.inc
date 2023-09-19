@@ -239,7 +239,7 @@ class Verifier {
     // Adds a single picture to the database. Categorizes the picture base on information in a FileNameReport.
     // The $filenamereport describes the picture.
     private function add_pic_to_db($filenamereport) {
-        global $db_prefix;
+        global $db_prefix, $connected_db;
 
         $pic_info = getimagesize("$filenamereport->directory/$filenamereport->new_filename");
         $exif_info = exif_read_data("$filenamereport->directory/$filenamereport->new_filename");
@@ -260,7 +260,7 @@ class Verifier {
                  . ($this->published ? '1' : '0')
                  . ')');
 
-        $id = mysqli_insert_id();
+        $id = mysqli_insert_id($connected_db);
         if ($id > 0) {
             foreach ($filenamereport->categories as $cat => $values) {
                 $res = exec_sql("SELECT id,isstring FROM {$db_prefix}categories WHERE name='$cat'");
