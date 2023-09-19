@@ -1,36 +1,137 @@
-﻿2200-2299,Nature,Natur
-2300-2699,House and Household
-2300-2399,Domestic Architecture
-2400-2499,Familiy and Kinship
-2500-2599,Meals for Familiy and Guests
-2600-2699,Illness and Healing
-2700-3099,The Means of Existence
-2700-2799,Farming and Animal Husbandry
-2800-2899,Water Sources,Vandkilder
-2900-2999,Arts and Crafts
-3000-3099,"Travel, Transport, and Trade"
-3100-3399,(Patrimonial) Kingdom
-3100-3199,The Royal City
-3200-3299,Urban Water Systems
-3300-3399,"Warfare, Armies, and Weapons"
-3100-3699,Culture and the Expressive Life
-3400-3499,Dress and Adornments
-3500-3599,"Music, Song, and Dance"
-3600-3699,"Literacy and Schools"
-3700-4900,Religious Institutions
-3700-3799,Sacred Sites
-3800-3899,Ritual objects
-3900-3999,Religious Practices
-4000-4099,"Death, Burial, and Afterlife"
-
+2200-2299,Nature
+2201,Flowers
 2202,Landscapes
+2203,Trees
+2204,Stones, Rockformations
+2300-2399,Domestic Architecture
+2301,Four Room Houses
+2302,Building Materials
+2400-2499,Familiy and Kinship
+2401,Kinsman-Redeemer
+2402,Father's House
+2403,Children
+2404,Women
+2405,Old Age
+2406,Married couples
+2407,Crimes and Punishments in the Family Context
+2408,Sex
+2500-2599,Meals for Familiy and Guests
+2501,Hospitality
+2502,Furniture
+2503,Food Preparation
 2504,Daily Meals
+2600-2699,Illness and Healing
+2601,Hygiene
+2602,Threats to Health
+2603,Health Consultants
+2604,Medical Procedures
+2605,Religion and healing
+2700-2799,The Means of Existence
+2701,Physical Geography and Climate
+2702,The Agricultural Year
 2703,Agricultural Tools
-2906,"Tools","Værktøj"
-3650,Samaritans
+2704,Cultivation and Processing of Edibles
+2705,Animal Husbandry
+2706,Boundary Stones
+2800-2899,Water Sources
+2801,Springs
+2802,Wells
+2803,Cisterns
+2804,Water conducts/canals
+2805,Water wheels
+2806,Waterfall
+2807,Rivers
+2808,Underground Water Reservoirs
+2900-2999,Arts and Crafts
+2901,Pottery
+2902,Textiles
+2903,Metallurgy
+2905,Glass
+2906,Tools
+3000-3099,Travel, Transport, and Trade
+3001,Overland Routes
+3002,Seafaring
+3003,Travel
+3004,Transport
+3005,Trade
+3006,Coins
+3100-3199,Monumental Architecture
+3101,Acropolis
+3102,Column Capitals
+3103,The Palace
+3104,Emperors, kings and princes
+3105,Bridges
+3200-3299,Urban Water Systems
+3201,Urban Water Systems: Jerusalem
+3202,Urban Water Systems: Gibeon
+3203,Urban Water Systems: Beersheba
+3204,Urban Water Systems: Megiddo
+3300-3399,Warfare, Armies, and Weapons
+3301,Bows and Arrows
+3302,Catapult Stones
+3303,Armies
+3304,Neo-Assyrian Warfare
+3305,Neo-Babylonian Warfare
+3306,Persian Warfare
+3307,Armor
+3400-3499,Dress and Adornments
+3401,Clothing
+3402,Jewelry and Ornaments
+3403,Perfumes
+3404,Cosmetics
+3405,Grooming
+3406,Aromatics
+3407,Masks
+3500-3599,Music, Song, and Dance
+3501,Musical Instruments
+3502,Dance
+3600-3699,Literacy, Schools and Expressive Art
+3601,Frescos
+3602,Monumental Inscriptions
+3603,Archival Texts
+3604,Canonical Texts
+3605,Symbols
+3606,Mosaics
+3607,Stelae (non-inscriptional)
+3608,Reliefs (non-inscriptional)
+3609,Statues
+3700-3799,Sacred Sites
+3701,Religious Institutions
 3702,Temples and Shrines
+3703,High Places
+3704,Baptisteries
+3705,Synagogues
+3800-3899,Ritual objects
+3801,Altars
+3802,Cult Stands
+3803,Cult Figurines
+3804,Votives
+3805,Mezuzah
+3806,Mythological figures (statues, busts, reliefs)
+3807,Biblical Characters (statues, reliefs, mosaics)
+3808,Ceremonial Masks
+3809,Amulets
+3900-3999,Religious Practices
+3901,Feasts
 3902,Sacrifices and Offerings
+3903,Sacrificial sites, altars
+3904,Stonepillars
+4000-4099,Death, Burial, and Afterlife
 4001,Tomb Types and Burial Chambers
+4002,Mourning
+4003,Belief in Afterlife
+4004,Cult of the Dead, Ancestor Cult
+4005,Necromancy
+4006,Cenotaphs, Sepulchral Monuments (without the interments of the deceased)
+4007,Death Masks
+4008,Graveyards, Burial Sites
+4009,Sarchofages
+4010,Necropolis
+4011,Mummies
+4012,Ossuaries
+4013,Tombstones
+4014,Tumuli (burial mounds)
+4015,Mausoleums (with interments of the deceased)
 4100,Priests
+4100-4199,Religious Personel
 4101,Priestly Clothing
-

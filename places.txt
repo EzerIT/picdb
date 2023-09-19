@@ -1,46 +1,651 @@
-﻿001-599,Israel
-600-699,Jordan
-700-799,Lebanon
-800-899,The Arabian Peninsula
-900-1099,Syria
-1100-1199,Mesopotamia
-1200-1299,Persia
-1600-1899,Egypt
-1900-2199,Greece and other sites in the Meditterranean Region
-
+1-599,Israel
+1,Abu Ghosh
+2,Tell Abu Hawam
+3,Tell Abu Salima
+4,Khirbet Abu Tuwein
+5,Acco
+6,Achzib
+7,Afula
+8,el-Ahwet
 9,Ai
+10,Tell el-Ajjul
+11,Ali Tel
+12,Horvat Ammudim
+13,Nahal Amud
+14,Anab el-Kebir
+15,Tel Anafa
+16,Horvat Anim
+17,Aphek (in Sharon)
+18,Apollonia-Arsuf
+19,Arad
 20,Arbel
+21,Khirbet Aristobulia
+22,Aroer (in Judea)
+23,Ashdod
+24,Ashdod-Yam
+25,Ashkelon
+26,Atlit
+27,Horvat Avot
+28,Azekah
+29,Azor
+30,Banias
+31,Baqah Valley
+32,Baram
+33,Tel Batash (Timnah)
+34,Teluliyot Batash
+35,Beer Resisim
+36,Beersheba
+37,Beisamûn
+38,Tell Beit Mirsim
+39,Khirbet Beit Sila
+40,Khirbet el-Beiyudat (Archelais)
+41,Belmont Castle (Suba)
+42,Belvoir
+43,Bene-Berak
+44,Horvat Berakhot
+45,Betar
+46,Beth Alpha
 47,Bethel
+48,Beth Guvrin
+50,Beth ha-Emeq
+51,Bethlehem
+52,Bethlehem of Galilee
+53,Horvat Beth Loya
 54,Beth-Shean
+55,Beth She’arim
+56,Beth-Shemesh
+57,Beth Yerah
+58,Beth-Zur
 59,Bethsaida (et-Tell)
+60,Horvat Bira
+61,Tell Bira
+62,Bizat Ruhama
+63,Nahal Boqer
+64,“Bull” site
+65,el-Buqeia
+66,Burj el-Ahmar (The Red Tower)
+67,Caesarea
 68,Capernaum
+69,Chariton
+70,Tel Chinnereth
 71,Chorazin
+72,Cypros
+73,Dabiyye
+74,Tel Dalit
+75,Wadi ed-Daliyeh
+76,Dan
+77,Khirbet ed-Dawwara (South)
+78,Khirbet ed-Deir
+79,Deir Aziz
+80,Deir el-Balah
+81,Deir Qala
+82,Deir Qeruh
+83,Dor
 84,Dothan
 85,Mount Ebal
-96,‘En Gev
-124,Mount Gerizim
+86,Eilat Region
+87,Ein el-Hilu (Migdal ha-Emeq)
+88,Ein el-Jarba
+89,Ein Samiya and Dhahr Mirzbaneh
+90,Elusa
+91,Emmaus
+92,Enan
+93,En Besor
+94,En Beqeq
+95,En-Gebi
+96,En Gev
+97,En Haggit
+98,En Hofez
+99,En Nashut
+100,En Shadud
+101,Tel En Zippori
+102,Horvat Eqeb
+103,Tel Erani
+104,Horvat Erav
+105,Tell Esdar
+107,Eshtemoa
+108,Tel Esur
+109,Horvat Ethri
+110,Euthymius’ Monastery
+111,Evron
+112,Eyal 23
+113,Ezba Cave
+114,Farah Site II
+115,Tell el- Farah (North)
+116,Tell el-Farah (South)
+117,Fejja
+118,Tell el-Fûl
+119,Gamala
+120,Gaza
+121,Tel Gedor
+122,Gerar Site E
+123,Tel Gerisa
+124,Mount Gerizam
+125,Gesher
+126,Gesher Benot Ya’aqov
+127,Geulah Cave
+128,Gezer
+129,Gibeon
+130,Gilat
+131,Gilgal
+132,Giloh
 133,Ginnosar
-134,Giv‘atayim
+134,Givatayim
+135,Givat ha-Oranim
+136,Givat Orha
+137,Horvat Givit
+138,Gush Halav
+139,Ha-Bonim
 140,Tel Hadar
+141,Hadera
+142,Tel Hadid
+143,Ha-Gosherim
+144,Tel Halif
+145,Hamadya
+146,Tel Hamid
+147,Tell el-Hammah
+148,Khirbet el-Hammam
+149,Hammat Gader
 150,Hammath-Tiberias
+151,Horvat Hani
+152,Tel Harasim
+153,Mount Harif
+154,Tel Haror
+155,Hartuv
+156,Mezad Hashavyahu
+157,Haspin
+158,Hatula
+159,Hayonim Cave
+160,Hazeva Mezad
+161,Hazor
+162,Hebron
+163,Tel Hefer
+164,Heptapegon (‘En Sheva’; Et-Tabgha)
+165,Horvat Hermeshit
+166,Mount Hermon
+167,Herodium
+168,Tell el-Hesi
+169,Hilazon Tahtit Cave
+170,Hippos (Sussita)
+171,Holon
+172,Husifah
+173,Hyrcania
+174,Horvat Illin Tahtit
+175,Tel Ira
+176,Izbet Sartah
+177,Jaffa
+178,Japhia
+179,Tel Jarmuth
+180,Jebel Nimra
+181,Jebel Qaaqir
+182,Tell Jemmeh
 183,Jericho
-185,Tel Jezreel
-205,Kinneret (lake)
+184,Jerusalem
+185,Tel Jezreel (Yisre’el)
+186,Jokneam
+187,Tell Judeidah
+188,Kabri
+189,Kadesh-Barnea
+190,Kafr Samir
+191,Horvat Kanaf
+192,Mount Karkom
+193,Horvat Karkur Illit
+194,Kebara Cave
+195,Tel Kedesh (in Upper Galilee)
+196,Tel Kedesh (in Jezreel Valley)
+197,Kefar Gil’adi
+198,Kefar ha-Horesh
+199,Kefar Hananya
+200,Kefar Menahem
+201,Tell Keisan
+202,Tell el-Kheleifeh
+203,el-Khirbe
+204,Khirbet el-Kilyeh
+205,Kinneret
+206,Tel Kishion
+207,Horvat Kishor
+208,Kissufim
+209,Tel Kitan
+210,Tell Kudadi
+211,Kurnub
 212,Kursi
-284,Schechem
+213,Lachish
+214,Latrun
+215,Leviah Enclosure
+216,Lod
+217,Maagan Mikha’el
+218,Tel Maahaz
+219,Tel Maaravim
+220,Maayan Barukh
+221,Khirbet el-Mafjar
+222,Khirbet el-Makhruq
+223,Makmish
+224,Malhata
+225,Malhata (Small)
+226,Mamre
+227,Maon (in Judea)
+228,Maon (Nirim)
+229,Maoz Hayyim
+230,Mareshah (Marisa)
+231,Khirbet Marjameh
+232,Mar Saba
+233,Martyrius Monastery
+234,Masada
+235,Tel Masos
+236,Horvat Mazad
+237,Mazor
+238,Tel Megadim
+239,Mediggo
+240,Meiron
+241,Meona
+242,Meroth
+243,Tel Mevorakh
+244,Mezer
+245,Tel Michal
+246,Horvat Midras
+247,Horvat Migdal
+248,Tel Mikhamoret
+249,Horvat Minha
+250,Horvat Minnim
+251,Tel Miqne (Ekron)
+252,Mizpe Shivta
+253,Mizpe Yammim
+254,Montfort
+255,Tel Mor
+256,Moza
+257,Khirbet el-Muraq (Hilkiah’s Palace)
+258,Naaran
+259,Nabratein (Kefar Neburaya)
+260,Tel Negila
+261,Nahal Hadera V
+262,Nahal Haggit
+263,Nahal Hemar Cave
+264,Nahal Qanah Cave
+265,Nahal Reuel (Site 920)
+266,Nahal Tanninim Reservoir
+267,Nahal Tut
+268,Nahariya
+269,Tel Naharon
+270,Tel Nami
+271,Tell en-Nasbeh
+272,Nazareth
+273,Nebi Samwil
+274,Nessana
+275,Sefunim Cave
+276,Mount Senaim
+277,Sepphoris
+278,Tel Sera
+279,Serabit el-Khadem
+280,Shaalbim
+281,Shaar ha-Amaqim
+282,Shaar ha-Golan
+283,Sharon Plain
+284,Shechem
+285,Khirbet Shema
+286,Shephards’ Fields
+287,Horvat Shilha
 288,Shiloh
+289,Shiqmim
+290,Shiqmona
+291,Shoham
+292,Shunera Dunes
+293,Shuni
+294,Shuni Cemetery (Enot Shuni)
+295,Shuqba Cave
+296,Skhul Cave
+297,Sobata
+298,Tel Soreq
+299,Nahal Soreq
+300,Horvat Sumaqa
+301,Khirbet Susiya
+302,Taanach
+303,Tabun Cave
+304,Mezad Tamar
+305,Tel Tannim
+306,Tel Amal
+307,Tel Aviv
+308,Horvat Teman
+309,Tel Teo
 310,Tiberias
-386,Samaria (Sebaste)
-387,Sartaba-Alexandrium
-397,Wadi Qelt
-398,Jordan (Valley)
-399,Road from Jericho to Ramallah
+311,Horvat Tilla
+312,Timna (Valley)
+313,Horvat Tinshemet (Church of St. Bacchus)
+314,Ubeidiya
+315,Khirbet Umm Deimnah
+316,Khirbet Umm el-Asafir
+317,Khirbet Umm el-Umdan (Modi’in)
+318,Uvda Valley
+319,Horvat Uza
+320,Horvat Uza
+321,Vered Yehiro
+322,el-Wad Cave
+323,Tell el-Wawiyat
+324,Yaqush
+325,Khirbet Yattir
+326,Yavneh
+327,Yavneh-Yam
+328,Mount Yeroham
+329,Yesud ha-Ma’ala
+330,Yiftahel
+331,Tel Yin’am
+332,Yodfat
+333,Yotvata
+334,Tel Zaf
+335,Rujm Jerida
+336,Tel Zayit
+337,Tel Zeror
+338,Tel Zippor
+339,Horvat Zikhrin
+340,Ziqim
+341,Netiv ha-Gedud
+342,Nimrod Fortress
+343,Oboda
+344,Ohalo II
+345,Horvat Omrit
+346,Nahal Oren
+347,Or ha-Ner
+348,Ostrakine
+349,Horvat Ovesh
+350,Palmahim Quarry
+351,Peqiin Cave
+352,Petura
+353,Nahal Poleg
+354,Qafzeh Cave
+355,Qalandiyeh
+356,Tel Qashish
+357,Tel Qasile
+358,Qasrawet
+359,Qasrin
+360,Khirbet el-Qasr
+361,Qatif
+362,Qedumim
+363,Qesem Cave
+364,Tel Qiri
+365,Qiryat Ata
+366,Qiryat Sefer (Khirbet Badd ‘Isa)
+367,Horvat Qitmit
+368,Khirbet el-Qôm
+369,Khirbet Qumran
+370,Wadi Rabah
+371,Khirbet Rabud
+372,Khirbet Raddana
+373,Horvat Radum
+374,Ramat ha-Nadiv
+375,Ramat Matred
+376,Ramat Rahel
+377,Ramla
+378,Horvat Raqit
+379,Rehob
+380,Tel Rehov
+381,Rehovot-in-the-Negev
+382,Nahal Rephaim
+383,Tel Ridan
+384,Horvat Rimmon
+385,Rishon le-Ziyyon
+386,Samaria/Sebaste (city)
+387,Roi (Site 2)
+388,Tel Rosh ha-Niqra
+389,Posh Pina
+390,Horvat Rosh Zayit
+391,Tel Zafit/Tell es-Safi (Gath)
+392,Ruqeish
+393,Safed
+394,Tell es-Sakan
+395,Rogem Hiri
+396,Sartaba-Alexandrium
+397,Wadi Kelt
+398,Jordan Valley
+399,The Jericho-Ramallah Road
 400,Khirbet al-Makatar
-401,Road from Ramalla to Nablus
-402,Harod (spring)
+401,The Ramallah-Nablus Road
+402,Harod Spring
+403,Nature
 404,Magdala
 405,Tel Kinnerot
 406,Tabgha
-407,Eremos Cave
+407,Eremos Cave and Church of Beatitudes
 408,Bay of Parables
-409,Jordan (River)
+409,Jordan River
+410,Susita/Hippos
+411,Golan
+412,Metulla
+413,Huleh Valley
+414,Kafr Shammai
+415,Hattins Horn
+416,Kibbutz Lavi
+417,Turan
+418,Kafr Kana
+419,Khirbet Kana
+420,Jezreel Valley
+421,Tabor
+422,Nain
+423,Karnel/Haifa
+424,Carmel Caves
+425,Netanya
+426,Modiin
+427,Valley of Elah
+428,The Tel Aviv-Jerusalem Road
+429,Kirjat-Jearim
+430,Ein Karem
+431,Anatot
+432,Gibea
+433,Rama
+434,Ayyalon Valley
+435,Mount of Olives
+436,Mount Scopus
+437,Bethphage
+438,Bethany
+439,Ain Yael
+440,Beit Sahur
+441,Road 60 to Hebron
+442,Sde Boker
+443,Maktesh Ramon
+444,Desert of Paran
+445,Sinai Peninsula
+446,Saint Catherine's Monastery
+447,Judean Desert
+448,Ein Feshka
+449,The road along the Dead Sea
+450,Poryia (Tiberias)
+600-799,Jordan
+607,Aroer
+620,Dibon
+624,Gadara (Umm Qais)
+625,Gerasa/Jarash
+633,Heshbon
+642,Kallierrhoe
+643,Karak/Kerak
+644,Wadi Kharrar
+648,Machaerus
+651,Madaba/Medeba
+656,Mount Nebo
+659,Numeira,Numeira"
+661,Pella
+662,Petra
+667,Amman
+682,Umm er-Rasas
+692,Amman
+693,Suweilah
+694,Suweilah
+695,Beqaa (Baca) Valley
+696,Jabbok River
+697,Mar Elias
+698,Gilead Mountains
+700,Naur
+701,Kings Highway
+702,Mukhayyat
+703,Hammamat Main
+704,Ain Zarqa
+705,Wadi Wala
+706,Wadi Mujib (Arnon)
+707,Kings Highway
+708,El-Qasr,El-Qasr"
+709,Rabba (Areopolis)
+710,Sanctuary of Lot
+711,Wadi Hasa (Zered river)
+712,Via Trajana
+713,Sela
+714,Buseira (Bozra)
+715,Shobak (Montreal)
+716,The Desert Road
+717,Wadi Rum
+718,Aqaba
+799,Yarmuk River
+800-899,The Arabian Peninsula
+900-1099,Lebanon
+900,Beirut
+901,Beiteddine
+902,Byblos
+903,Baalbek
+904,Deir al-Qamar
+905,Eshmun
+906,Harissa
+907,Ksara
+908,Nahr al-Kalb
+909,Qana
+910,Sidon
+911,Tyrus
+912,Aanjar
+1200-1299,Persia
+1300-1399,Syria
+1300,Aleppo
+1301,Bosra
+1302,Crac des Chevaliers
+1303,Damascus
+1304,Ebla
+1305,Hama
+1306,Maaloula
+1307,Palmyra
+1308,Samaan
+1309,Seydnaya
+1500-1599,Mesopotamia
+1500,Nimrud
+1501,Niniveh
+2000-2199,Egypt
+2000,British Museum
+2001,Cairo
+2002,Old Cairo
+2003,Giza
+2004,Goshen
+2005,Heliopolis
+2006,Karnak
+2007,Luxor
+2008,Memphis
+2009,Sakkara/Saqqara
+2010,Suez
+2011,Road to Cairo
+5000-5299,Greece
+5000,Agia Marina
+5001,Amphipolis
+5002,Appollonia
+5003,Asprovalta
+5004,Athens
+5005,Athens National Museum
+5006,Beroea
+5007,Daphni
+5008,Delphi
+5009,Delphi Museum
+5010,Eleusis
+5011,Epidaurus
+5012,Philippi
+5013,Kalambaka
+5014,Cenchreae
+5015,Corinth
+5016,Meteora
+5017,Mistras
+5018,Mycenea
+5019,Neapolis/Kavala
+5020,Olympus
+5021,Olympia
+5022,Olympia Museum
+5023,Patras
+5024,Sparta
+5025,Tempi Valley
+5026,Thermopylae
+5027,Thessalonica
+5028,Thessalonica Museum
+5029,Vergina
+5300-5499,Turkey (Anatolia)
+5300,Afrodisias
+5301,Agzikarahan
+5302,Aizanoi
+5303,Alahan
+5304,Ankara
+5305,Antalya
+5306,Antiochia/Antakya
+5307,Antiochia/Pisidia
+5308,Aspendos
+5309,Assos
+5310,Aya Tekla
+5311,Dafne Harbie
+5312,Derbe
+5313,Derinkuyu
+5314,Didyma
+5315,Ephesus
+5316,Epifaneia
+5317,Euphrates
+5318,Philadelphia
+5319,Galatia (region)
+5320,The Caves "Heaven" and "Hell"
+5321,Valley of Göreme
+5322,Hierapolis
+5323,Ikonion/Konya
+5324,Issos
+5325,Istanbul
+5326,Kanlikivane
+5327,Karaman
+5328,Karan/Harran
+5329,Kaş
+5330,Cilician Gates
+5331,Collossae
+5332,Korykos
+5333,Kusadasi
+5334,Along the Meditteranean
+5335,Laodicea
+5336,Lystra
+5337,Magnesia/Meander
+5338,Marmaris
+5339,River Meander
+5340,Milet
+5341,Myra
+5342,Narlikuyu
+5343,Nicea
+5344,Orontes
+5345,Pamukkale
+5346,Patara
+5347,Pergamon
+5348,Perge
+5349,Priene
+5350,Şanliurfa/Urfa (Edessa)
+5351,Sardes
+5352,Seleucia ad Piera
+5353,Side
+5354,Church of Simon Stylites
+5355,Smyrna/Izmir
+5356,Suduragi
+5357,Tarsus
+5358,Thyatira
+5359,Troas
+5360,Troy
+5361,Uçhisar
+5362,Uzuncaburç
+5363,Ürgüp
+5364,Valley of Zelve
+5365,Silifke
+5366,Göbekli Tepe
+5367,Mardin
+5368,Mor Gabriel
+5369,Hasankeyf
+5370,Akdamar
+5371,Doğubeyazıt
+5372,Ararat
+5373,Van (Tushpa)
+5374,Gaziantep
+5375,Zeugma
+5376,Mount Nemrud
+5377,Karakuş
+5378,Arsameia on the Nymphaios (Eski Kale)
+5379,Astwadzaschen
+5380,Tscholakert
+5381,Keşiş Göl (Turna Gölü)
+5382,Anzaf

@@ -1,4 +1,3 @@
-H,"High (> 6MB)","Høj (> 6MB)"
-L,"Low (< 500KB)","Lav (< 500KB)"
-M,"Medium (500KB - 6MB)","Middel (500KB - 6MB)"
-
+H,High (> 6MB)
+M,Medium (500KB - 6MB)
+L,Low (< 500KB)

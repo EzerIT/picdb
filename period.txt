@@ -1,16 +1,16 @@
-"0","N/A"
-"1","Before early bronze"
-"2","Early bronze (3300-2000 BC)"
-"3","Middle bronze (2000-1550 BC)"
-"4","Late bronze (1550-1200 BC)"
-"5","Iron I (1200-1000 BC)"
-"6","Iron II (1000-539 BC)"
-"7","Post-exilic and Persian (539-333 BC)"
-"8","Hellenistic and Roman (333 BC - 330 AD)"
-"9","Byzantine (330 - 638)"
-"10","Muslim 1 (638 - 1099)"
-"11","Crusader (1099 - 1291)"
-"12","Muslim 2 (1291 - 1517)"
-"13","Ottoman (1517 - 1917)"
-"14","Mandate (1920 - 1948)"
-"15","Modern"
+0,N/A
+1,Before early bronze
+2,Early bronze (3300-2000 BC)
+3,Middle bronze (2000-1550 BC)
+4,Late bronze (1550-1200 BC)
+5,Iron I (1200-1000 BC)
+6,Iron II (1000-539 BC)
+7,Post-exilic and Persian (539-333 BC)
+8,Hellenistic and Roman (333 BC - 330 AD)
+9,Byzantine (330 - 638)
+10,Muslim 1 (638 - 1099)
+11,Crusader (1099 - 1291)
+12,Muslim 2 (1291 - 1517)
+13,Ottoman (1517 - 1917)
+14,Mandate (1920 - 1948)
+15,Modern
