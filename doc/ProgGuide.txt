@@ -1,0 +1,37 @@
+Resource Website - Programmer's Guide
+=====================================
+
+Claus Tøndering - 20 September 2023
+
+Setup:
+
+Configuration is located in the file config.inc.php. A skeleton of this file is provided in
+config.inc.php-dist.
+
+Everthing below the folders "photos" and "unpub" must belong to user www-data:www-data.
+
+
+Programming:
+
+The Resource Website code is written in PHP. It's fairly old-fashioned as it was written for PHP
+version 5. It uses no PHP framework; for JavaScript is uses JQuery and JQuery-UI.
+
+The PHP files include "wrapper.inc.php", which defines this function
+
+    function wrapme($title, $headerscript, $leftbox, $bodytext, $include_js=array(), $include_css=array(), $show_menu=true)
+
+
+This function generates the HTML code for a web page, its arguments are:
+
+    $title - The title of the web page.
+    $headerscript - JavaScript to be added to the output.
+    $leftbox - HTML for the box on the left.
+    $bodytext - HTML for the main body.
+    $include_js - Array of JavaScript files to be included.
+    $include_css - Array of CSS files to be included.
+    $show_menu - Can the administration menu be shown on this page?
+
+The code makes heavy use of the functions ob_start() and ob_get_clean(). Any HTML generated between
+the calls to these two functions is not output, but is returned as the value of the ob_get_clean()
+function.
+
